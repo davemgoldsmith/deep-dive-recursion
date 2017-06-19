@@ -1,0 +1,2 @@
+edu.cnm.deepdive.recursion.Palindrome.isPalindrome("Radar")
+edu.cnm.deepdive.recursion.Palindrome.main(new String[] {"Madam, I'm Adam"});
