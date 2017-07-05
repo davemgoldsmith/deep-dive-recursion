@@ -1,3 +1,14 @@
 edu.cnm.deepdive.recursion.Palindrome.isPalindrome("Radar")
-edu.cnm.deepdive.recursion.Palindrome.main(new String[] {"Madam, I'm Adam"});The method fibonacci(int) is undefined for the type FibonacciThe method fibonacci(int) is undefined for the type FibonacciThe method fibnumber(int) is undefined for the type Fibonacciedu.cnm.deepdive.recursion.Fibonacci.fibNumber(15);
+edu.cnm.deepdive.recursion.Palindrome.main(new String[] {"Madam, I'm Adam"});Syntax error on token "fibonacci", = expectedThe method fibonacci(int) is undefined for the type FibonacciThe method fibonacci(int) is undefined for the type FibonacciThe method fibnumber(int) is undefined for the type Fibonacciedu.cnm.deepdive.recursion.Fibonacci.fibNumber(15);
 edu.cnm.deepdive.recursion.Tower.getMoves(3, 0, 1);
+		
+		int value = 100;
+		int increment = 7; 
+		int sign = Math.round(Math.signum(value));
+		  value = Math.abs(value);
+		  increment = Math.abs(increment);
+		  int truncated = value / increment;
+		  int remainder = value % increment;
+		  int rounded = truncated * increment;
+		  int adjustment =  (2 * remainder >= increment) ? increment : 0;
+		 System.out.println(sign * (rounded + adjustment);
